@@ -1,0 +1,14 @@
+{
+	"Dev_iPhoneXr":{
+		"DEVICE_ID" : "00008020-001879DC22EA002E",
+		"MOBILE_DEVICE_PLATFORM" : "iOS",
+		"DEVICE_NAME" : "iPhone Marvel",
+		"PLATFORM_VERSION" : "12.3"
+	},
+	"Nokia81":{
+		"DEVICE_ID" : "PNXID18121001594",
+		"MOBILE_DEVICE_PLATFORM" : "Android",
+		"DEVICE_NAME" : "Nokia 8.1",
+		"PLATFORM_VERSION" : "10"
+	}
+}

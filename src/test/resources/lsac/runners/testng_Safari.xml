@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LSAC test suite" parallel="false" thread-count="5" verbose="2">
+
+	<test name="Test" preserve-order="false">
+		<parameter name="platform.type" value="WEB"></parameter> 	<!-- This is mandatory field -->
+		<parameter name="desktop.platform" value="MAC"></parameter> 	<!-- This is mandatory field -->
+		<parameter name="browser.name" value="Safari"></parameter> 	<!-- This is mandatory field -->
+ 		<parameter name="execution.engr" value="Bhanuprakash"></parameter> 	<!-- This is mandatory field -->
+ 		
+ 		<groups>
+			<run>
+				<include name="RegressionTest" />
+			</run>
+		</groups>
+			
+		<classes>
+			<class name="lsac.tests.HomePageTest"/>
+			<class name="lsac.tests.LSATPrepTest71Test"/>
+	 	
+		</classes>
+	    
+	</test> <!-- Test -->
+    
+</suite> <!-- Suite -->

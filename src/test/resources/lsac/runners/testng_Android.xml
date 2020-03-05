@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LSAC test suite" parallel="false" thread-count="5" verbose="2">
+
+	<test name="Test" preserve-order="false">
+		<parameter name="devicename.testng" value="Nokia81" />		<!-- This is mandatory field -->
+		<parameter name="appium.server.ipaddress" value="127.0.0.1" />		<!-- This is Optional field in case of execution on single device -->
+		<parameter name="platform.type" value="MOBILE"></parameter> 	<!-- This is mandatory field -->
+ 		<parameter name="browser.name" value="Chrome"></parameter> 	<!-- This is mandatory field -->
+ 		<parameter name="execution.engr" value="Bhanuprakash"></parameter> 	<!-- This is mandatory field -->
+ 		
+ 		<groups>
+			<run>
+				<include name="RegressionTest" />
+				
+				<exclude name="OnlyWeb"></exclude>
+			</run>
+		</groups>
+			
+		<classes>
+			<class name="lsac.tests.HomePageTest"/>
+			<class name="lsac.tests.LSATPrepTest71Test"/>
+	 	
+		</classes>
+	    
+	</test> <!-- Test -->
+    
+</suite> <!-- Suite -->

@@ -1,0 +1,66 @@
+{
+	"LSACLogo":{
+		"Mobile":{
+    		"id": "lsacLogo"
+    	},
+    	"Web":{
+    		"id": "lsacLogo"
+    	}
+	},
+	"LibraryLink":{
+		"Mobile":{
+    		"id": "practiceLink"
+    	},
+    	"Web":{
+    		"id": "practiceLink"
+    	}
+	},
+	"TutorialsLink":{
+    	"Mobile":{
+    		"id": "tutorialsLink"
+    	},
+    	"Web":{
+    		"id": "tutorialsLink"
+    	}
+	},
+	"LibraryText":{
+    	"Mobile":{
+    		"xpath": "//*[@id='masterContentPane']/div/div/div[1]/h1/span"
+    	},
+    	"Web":{
+    		"xpath": "//*[@id='masterContentPane']/div/div/div[1]/h1/span"
+    	}
+	},
+	"PrepTest71Link":{
+    	"Mobile":{
+    		"linktext": "The Official LSAT PrepTest 71"
+    	},
+    	"Web":{
+    		"linktext": "The Official LSAT PrepTest 71"
+    	}
+	},
+	"PrepTest73Link":{
+    	"Mobile":{
+    		"linktext": "The Official LSAT PrepTest 73"
+    	},
+    	"Web":{
+    		"linktext": "The Official LSAT PrepTest 73"
+    	}
+	},
+	"PrepTest74Link":{
+    	"Mobile":{
+    		"linktext": "The Official LSAT PrepTest 74"
+    	},
+    	"Web":{
+    		"linktext": "The Official LSAT PrepTest 74"
+    	}
+	},
+	"MobileMenuItem":{
+    	"Mobile":{
+    		"xpath": "//*[@id='masterContentPane']/div/div/div[1]/i"
+    	},
+    	"Web":{
+    		"xpath": ""
+    	}
+	}
+}
